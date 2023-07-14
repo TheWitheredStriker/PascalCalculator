@@ -1,7 +1,6 @@
 program Calculator;
 
 {%region Input functions}
-
 function GetFirstVal(): integer;
 var num1: integer;
 begin
@@ -20,8 +19,14 @@ end;
 
 {%endregion}
 
+{%region Effective calculations}
+
+{%endregion}
+
+{%region Entry point}
 begin
   GetFirstVal();
   GetSecondVal();
 end.
+{%endregion}
 
