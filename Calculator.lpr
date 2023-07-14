@@ -41,11 +41,14 @@ var
 begin
   num1 := GetFirstVal();
   num2 := GetSecondVal();
-  WriteLn('Now, time to do some work! Type ''A'' to add the numbers or ''S'' to subtract them. ');
+  Write('Now, time to do some work! Type ''A'' to add the numbers or ''S'' to subtract them. ');
   ReadLn(response);
 
   if (response = 'A') or (response = 'a') then
-  	 Add(num1, num2)
+  begin
+  	 WriteLn(num1, ' + ', num2, ' = ', Add(num1, num2));
+     ReadLn();
+  end
 
   else if (response = 'B') or (response = 'b') then
      Subtract(num1, num2)

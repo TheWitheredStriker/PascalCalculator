@@ -9,13 +9,13 @@
         <Filename Value="Calculator.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="25"/>
-        <CursorPos X="26" Y="43"/>
+        <TopLine Value="28"/>
+        <CursorPos X="8" Y="44"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
       </Unit0>
     </Units>
-    <JumpHistory Count="8" HistoryIndex="7">
+    <JumpHistory Count="9" HistoryIndex="8">
       <Position1>
         <Filename Value="Calculator.lpr"/>
         <Caret Line="10" Column="10"/>
@@ -48,6 +48,10 @@
         <Filename Value="Calculator.lpr"/>
         <Caret Line="35" Column="16" TopLine="16"/>
       </Position8>
+      <Position9>
+        <Filename Value="Calculator.lpr"/>
+        <Caret Line="50" Column="37" TopLine="37"/>
+      </Position9>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
