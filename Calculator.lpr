@@ -1,5 +1,7 @@
 program Calculator;
 
+{%region Input functions}
+
 function GetFirstVal(): integer;
 var num1: integer;
 begin
@@ -15,6 +17,8 @@ begin
   ReadLn(num2);
   Result := num2;
 end;
+
+{%endregion}
 
 begin
   GetFirstVal();
