@@ -35,10 +35,12 @@ end;
 {%endregion}
 
 {%region Entry point}
-var response: char;
+var
+  response: char;
+  num1, num2: integer;
 begin
-  GetFirstVal();
-  GetSecondVal();
+  num1 := GetFirstVal();
+  num2 := GetSecondVal();
   WriteLn('Now, time to do some work! Type ''A'' to add the numbers or ''S'' to subtract them. ');
   ReadLn(response);
 
