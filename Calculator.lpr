@@ -1,5 +1,8 @@
 program Calculator;
 
+{$modeswitch result+}
+{$mode objFPC}
+
 {%region Input functions}
 function GetFirstVal(): integer;
 var num1: integer;
@@ -39,10 +42,10 @@ begin
   WriteLn('Now, time to do some work! Type ''A'' to add the numbers or ''S'' to subtract them. ');
   ReadLn(response);
 
-  if response = 'A' or response = 'a' then
+  if (response = 'A') or (response = 'a') then
   	 Add(num1, num2)
 
-  else if response = 'B' or response = 'b' then
+  else if (response = 'B') or (response = 'b') then
      Subtract(num1, num2)
 
   else Write('Oops! We''re still working on that!')
