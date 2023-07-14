@@ -50,10 +50,16 @@ begin
      ReadLn();
   end
 
-  else if (response = 'B') or (response = 'b') then
-     Subtract(num1, num2)
+  else if (response = 'S') or (response = 's') then
+  begin
+     WriteLn(num1, ' - ', num2, ' = ', Subtract(num1, num2));
+     ReadLn();
+  end
 
-  else Write('Oops! We''re still working on that!')
+  else begin
+    Write('Oops! We''re still working on that!');
+    ReadLn();
+  end;
 end.
 {%endregion}
 
