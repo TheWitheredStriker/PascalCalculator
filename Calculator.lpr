@@ -46,7 +46,7 @@ begin
 
   if (response = 'A') or (response = 'a') then
   begin
-  	 WriteLn(num1, ' + ', num2, ' = ', Add(num1, num2));
+     WriteLn(num1, ' + ', num2, ' = ', Add(num1, num2));
      ReadLn();
   end
 
