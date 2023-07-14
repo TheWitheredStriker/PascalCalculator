@@ -20,7 +20,15 @@ end;
 {%endregion}
 
 {%region Effective calculations}
+function Add(num1, num2: integer): integer;
+begin
+  Result := num1 + num2;
+end;
 
+function Subtract(num1, num2: integer): integer;
+begin
+  Result := num1 - num2;
+end;
 {%endregion}
 
 {%region Entry point}
