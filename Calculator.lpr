@@ -44,14 +44,12 @@ begin
   Write('Now, time to do some work! Type ''A'' to add the numbers or ''S'' to subtract them. ');
   ReadLn(response);
 
-  if (response = 'A') or (response = 'a') then
-  begin
+  if (response = 'A') or (response = 'a') then begin
      WriteLn(num1, ' + ', num2, ' = ', Add(num1, num2));
      ReadLn();
   end
 
-  else if (response = 'S') or (response = 's') then
-  begin
+  else if (response = 'S') or (response = 's') then begin
      WriteLn(num1, ' - ', num2, ' = ', Subtract(num1, num2));
      ReadLn();
   end
